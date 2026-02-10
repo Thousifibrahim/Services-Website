@@ -2,21 +2,15 @@
 
 Modern, high-performance web application built with **React 19**, **TypeScript**, and **Tailwind CSS**. This repository features a professional-grade CI/CD pipeline with automated testing, staging environments, and manual production gates.
 
----
+#
 
-## 📊 Deployment Status
+###  Deployment Status
 
-| Environment | Status | Live URL | Branch |
-| :--- | :--- | :--- | :--- |
-| 🚀 **Production** | ![Production](https://github.com/smdspace-dev/Startup/workflows/🚀%20Manual%20Production%20Deployment/badge.svg) | [redcrew.pages.dev](https://redcrew.pages.dev) | `production` |
-| 🌐 **Staging** | ![Master CI](https://github.com/smdspace-dev/Startup/workflows/🌐%20Master%20CI%20&%20Staging%20Deployment/badge.svg) | [bca-website-80i.pages.dev](https://bca-website-80i.pages.dev) | `master` |
-| 🔧 **Sprint** | ![Sprint CI](https://github.com/smdspace-dev/Startup/workflows/🚀%20Sprint%20to%20Master%20CI%20Pipeline/badge.svg) | *Internal Build* | `sprint` |
+🚀 **Production** [redcrew.pages.dev](https://redcrew.pages.dev) 
 
----
+🌐 **Staging**    [bca-website-80i.pages.dev](https://bca-website-80i.pages.dev)
 
-## 🔄 Development Workflow (Industry Standard)
-
-### **Branch Strategy**
+### *Branch Strategy* :
 ```text
 feature/xyz  ──►  sprint  ──►  master (Staging)  ──►  production
    (Dev)         (Auto CI)      (Auto Deploy)        (Manual Gate)
@@ -86,7 +80,7 @@ npm run build:prod
 
 ---
 
-## 📊 Pipeline Details
+## Pipeline Details
 
 ### **1. Sprint Pipeline (`sprint` branch)**
 
@@ -126,4 +120,5 @@ git push origin production --force
 ---
 
 **🏆 Built with professional DevOps practices to ensure 99.9% deployment stability.**
+
 
