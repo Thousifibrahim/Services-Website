@@ -1,5 +1,7 @@
 # Startup-web
 
+![stack: TypeScript](https://img.shields.io/badge/stack-TypeScript-3178C6) ![stack: CSS](https://img.shields.io/badge/stack-CSS-1572B6) ![stack: HTML](https://img.shields.io/badge/stack-HTML-E34F26) ![stack: JavaScript](https://img.shields.io/badge/stack-JavaScript-F7DF1E)
+
 Startup ebsite - Show casing our work , Team  and Expertise
 
 ## Overview
